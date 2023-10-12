@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: url(red.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    box-shadow: red 40px;
+}
+.container{
+    border: 1px solid black;
+    border-radius: 40px;
+    height: 500px;
+    width: 600px;
+    background: transparent;
+    background: black;
+    box-shadow: 0px 0px 30px red;
+    padding: 40px;
+    color: red;
+}  
+
+.head{
+    font-size: 20px;
+    border-bottom: 1px solid red;
+    text-shadow: 2px 2px red;
+}  
+
+.Amt-1{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.searchBox{
+    background: transparent;
+    height: 30px;
+    width: 200px;
+    border: 1px solid red;
+    border-radius: 8px;
+    margin: 20px;
+    color: wheat;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.mid-wrap{
+    padding-top: 10px;
+    font-size: 20px;
+}
+.from{
+    background: transparent;
+    color: red;
+    margin: 20px;
+    border-radius: 4px;
+    border: 1px solid red;
+}
+
+.to{
+    background: transparent;
+    color: red;
+    margin: 20px;
+    border-radius: 4px;
+    border: 1px solid red;
+}
+
+
+.ans-1{
+    padding-top: 20px;
+}
+.convert{
+    margin: 10px;
+    background: transparent;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.convert:hover{
+    background-color: red;
+}
+
+.rest-1{
+    margin: 10px;
+    background: transparent;
+    color: white;
+    height: 40px;
+    width: 100px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.rest-1:hover{
+    background-color: red;
+}
+
+.ans-2{
+    padding-top: 40px;
+}
+.finalValue{
+    color: white;
+}
